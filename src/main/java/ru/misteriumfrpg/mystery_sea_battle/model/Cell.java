@@ -10,8 +10,7 @@ import java.util.List;
 @ToString
 public class Cell {
 
-    private final String vertical;
-    private final Integer horizontal;
+    private final Coordinates coordinates;
 
     private List<Player> players;
     private Bonus bonus;
